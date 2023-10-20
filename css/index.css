@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.color1 {
+    color: #2197a3;
+}
+.color2 {
+    color: #f71e6c;
+}
+.color3 {
+    color: #f07868;
+}
+.color4 {
+    color: #ebb970;
+}
+.color5 {
+    color: #e7d3b0;
+}
+
+
+
+.banner1{
+    background-image: url("../Fondos/Banner1.svg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    /* Efecto parallax */
+    background-attachment: fixed;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+}
+.textBanner1{
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    font-size: 50px;
+    padding-top: 20%;
+    color: #f71e6c;
+}
+.textBanner2 {
+    width: 10%;
+    padding: 100px;
+    /* padding-top: 19%; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold !important;
+    color: #f71e6c;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+
+
+/*---------------- MENU DE NAVEGACION  ---------------*/
+.partRigth{
+    width: 5%;
+}
+.partLeft{
+    text-align: center;
+    width: 95%;
+    padding-right: 5%;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(33, 151, 163, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    text-align: center;
+    
+}
+
+/* Stroke rgba es para cambiar color
+stroke_width=3 es para cambiar el tamaño */
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 30, 108, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    text-align: center;
+}
+
+.menuText {
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 1);
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.menuText:hover {
+    color: #2197a3;
+    transition: all 5s solid;
+}
+
+.menuText:active {
+    color: rgb(233, 12, 107);
+}
+.menuNav{
+    padding: 10px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
+}
+textarea {
+    resize: none;
+    /*
+  height:150px;
+  max-height:150px;
+  min-height:150px;
+  max-width:auto;
+  min-width:400px;*/
+}
+
+
+/* -----------FIN DE MENU HAMBURGER---------------- */
+
+
+
+.banner2 {
+    background-image: url("../Fondos/Banner2.svg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    /* Efecto parallax */
+    background-attachment: fixed;
+}
+.containerAboutUs{
+    padding-top: 100px;
+}
+.textAboutUs{
+    font-size: 70px;
+    color: #f71e6c;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.textAboutUs1{
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
+}
+
+
+
+.banner3 {
+    background-image: url("../Fondos/Banner3.svg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    /* Efecto parallax */
+    background-attachment: fixed;
+}
+.textService{
+    font-size: 30px;
+    padding-top: 5%;
+    color: #ffffff;
+}
+.service1{
+    padding-top: 5%;
+    color: #ffffff;
+}
+
+.banner4 {
+    background-image: url("../Fondos/Banner4.svg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    /* Efecto parallax */
+    background-attachment: fixed;
+
+}
+.textAourJob{
+    font-size: 50px;
+    color: #ffffff;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-top: 0px;
+
+}
+.album1{
+    margin-top: 100px;
+}
+.album1 img{
+    width: 500px;
+    height: 550px;
+    margin-top: 10px;
+}
+.album2 img{
+    width: 450px;
+    height: 250px;
+    margin-top: 100px;
+}
+.album3 {
+    margin-top: 100px;
+}
+.banner5 {
+    background-image: url("../Fondos/Banner5.svg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    /* Efecto parallax */
+    background-attachment: fixed;
+
+}
+.textTestimonios{
+    font-size: 60px;
+    padding-top: 30%;
+    color: #ffffff;
+}
+.testimonio1{
+    color: #ffffff;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+.testimonio2 {
+    color: #ffffff;
+    font-size: 25px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-top: 5px;
+    margin-top: 5px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+.banner6 {
+    background-image: url("../Fondos/Banner6.svg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding-bottom: 0%;
+    /* Efecto parallax */
+    background-attachment: fixed;
+
+}
+.face{
+    padding-left: 20px;
+}
+.textContac{
+    font-size: 50px
+}
+.v-line {
+    padding-top: 50px;
+    border-left: solid #f8f8f8;
+    height: 105px;
+    width: .5vw;
+    padding-right: 10%;
+    position: absolute;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+    transition: transform 0.3s ease-out;
+}
+
+.goto-top:hover {
+    transform: scale(1.5);
+    
+}
